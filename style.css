@@ -68,12 +68,17 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:0 20px;
-background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
-url('images/hero.jpg') center/cover;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('images/hero-banner.jpg');
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 }
 
 .hero-content h1{
-font-size:58px;
+font-size:60px;
+font-weight:800;
 margin-bottom:20px;
 color:#fff;
 }
@@ -83,7 +88,7 @@ font-size:20px;
 max-width:750px;
 margin:auto;
 margin-bottom:35px;
-color:#ddd;
+color:#f0f0f0;
 }
 
 .btn{
