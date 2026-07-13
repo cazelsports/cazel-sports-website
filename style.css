@@ -253,3 +253,24 @@ transition:.3s;
 .whatsapp:hover{
 transform:scale(1.1);
 }
+.quote-form{
+max-width:700px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.quote-form input,
+.quote-form select,
+.quote-form textarea{
+padding:15px;
+border-radius:8px;
+border:none;
+font-size:16px;
+}
+
+.quote-form textarea{
+height:150px;
+resize:none;
+}
